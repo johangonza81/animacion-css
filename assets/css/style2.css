@@ -89,7 +89,6 @@ h6{
 .page-container {
     background: #0d6efd;
     color: yellow;
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     
@@ -151,7 +150,7 @@ footer{
             "footer main";
     }
     .nav-container{
-        
+        grid-area: nav;
         padding-right: 5px;
         display:grid;
         grid-template-columns: 10fr 1fr;
@@ -161,6 +160,7 @@ footer{
 
     
     .card-container{
+        grid-area: main;
         height: 90vh;
         display:grid;
         grid-template-columns: auto auto ;
@@ -192,16 +192,15 @@ footer{
             "footer main";
     }
     .nav-container{
-        
-        
         display:grid;
+        grid-area: nav;
         grid-template-columns: 10fr 1fr;
-       
     }
 
     
     .card-container{
-        height: 81vh;
+        height: 100vh;
+        grid-area: main;
         display:grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto;
