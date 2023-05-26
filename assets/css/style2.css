@@ -166,6 +166,7 @@ footer{
         grid-area: nav;
         grid-template-columns: auto;
         grid-template-rows: auto auto;
+        justify-content: center;
     }
 
     
@@ -244,8 +245,6 @@ footer{
         
     }
 
-    
-    
 
 
     @keyframes moto {
